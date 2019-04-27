@@ -4,6 +4,8 @@ With this Unity package, there is now a low-cost alternative to professional Mot
 
 Obviously it's not perfect (feet stuff is still kinda spiffy, thanks Mecanim), but it's a great place to start for iterative animation work if you need complex humanoid animations for game cutscenes or real-time video. After recording your takes with the Unity Recorder, a viable workflow would be to send your animation into Maya or Blender with the [FBX Exporter](https://blogs.unity3d.com/2018/11/13/fbx-exporter-and-round-tripping-between-autodesk-3ds-max-autodesk-maya-and-unity/) to tweak them, as you would with other animations recorded from inside the engine.
 
+An clean FBX file of the rig is included in the package if you wish to use it.
+
 ![gif](images/gif.gif)
 
 ### Inputs
