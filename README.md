@@ -27,3 +27,5 @@ This is a plugin that makes use of Unity's new *Package Manager* feature. Just d
 - Record audio tracks from HMD microphone for scratch audio takes.
 - Simple blinking/expression data system inferred from audio.
 - More robust XR multiplatform support.
+
+Per usual, this was spat out in around... 5 to 6 hours? Expect it to be pretty buggy.
