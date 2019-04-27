@@ -1,6 +1,6 @@
 ![OpenMocap](images/header.png)
 
-With this Unity package, there is now a free low-cost alternative to professional Motion Capture! Simply plug in your trusty HMD and motion controllers, jump into the virtual Mocap studio and start wiggling around - The plugin will harvest positional data at runtime from your VR device and automatically animate a humanoid character. The plugin will, match your actual head and arm movements, and generate IK leg, arm, knees and feet animation accordingly! 
+With this Unity package, there is now a low-cost alternative to professional Motion Capture! Simply plug in your trusty HMD and motion controllers, jump into the virtual Mocap studio and start wiggling around - The plugin will harvest positional data at runtime from your VR device and automatically animate a humanoid character. The plugin will, match your actual head and arm movements, and generate IK leg, arm, knees and feet animation accordingly! 
 
 Obviously it's not perfect, but it's a great place to start for iterative animation work if you need complex humanoid animations for game cutscenes or real-time video. After recording your takes with the Unity Recorder, a viable workflow would be to send your animation into Maya or Blender with the [FBX Exporter](https://blogs.unity3d.com/2018/11/13/fbx-exporter-and-round-tripping-between-autodesk-3ds-max-autodesk-maya-and-unity/) to tweak them, as you would with other animations recorded from inside the engine.
 
