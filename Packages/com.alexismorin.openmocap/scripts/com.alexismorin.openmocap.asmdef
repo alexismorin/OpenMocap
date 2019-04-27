@@ -1,6 +1,9 @@
 {
     "name": "com.alexismorin.openmocap",
-    "references": [],
+    "references": [
+        "Unity.Recorder",
+        "Unity.Recorder.Editor"
+    ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],

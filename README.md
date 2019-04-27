@@ -1,10 +1,14 @@
 ![OpenMocap](images/header.png)
 
-With this Unity package, there is now a low-cost alternative to professional Motion Capture! Simply plug in your trusty HMD and motion controllers, jump into the virtual Mocap studio and start wiggling around - The plugin will harvest positional data at runtime from your VR device and automatically animate a humanoid character. The plugin will, match your actual head and arm movements, and generate IK leg, arm, knees and feet animation accordingly! 
+With this Unity package, there is now a low-cost alternative to professional Motion Capture! Simply plug in your trusty HMD and motion controllers, jump into the virtual Mocap studio and start wiggling around - The plugin will harvest positional data at runtime from your VR device and automatically animate a humanoid character. The plugin will match your actual head and arm movements and generate IK leg, arm, knees and feet animation accordingly! 
 
-Obviously it's not perfect, but it's a great place to start for iterative animation work if you need complex humanoid animations for game cutscenes or real-time video. After recording your takes with the Unity Recorder, a viable workflow would be to send your animation into Maya or Blender with the [FBX Exporter](https://blogs.unity3d.com/2018/11/13/fbx-exporter-and-round-tripping-between-autodesk-3ds-max-autodesk-maya-and-unity/) to tweak them, as you would with other animations recorded from inside the engine.
+Obviously it's not perfect (feet stuff is still kinda spiffy, thanks Mecanim), but it's a great place to start for iterative animation work if you need complex humanoid animations for game cutscenes or real-time video. After recording your takes with the Unity Recorder, a viable workflow would be to send your animation into Maya or Blender with the [FBX Exporter](https://blogs.unity3d.com/2018/11/13/fbx-exporter-and-round-tripping-between-autodesk-3ds-max-autodesk-maya-and-unity/) to tweak them, as you would with other animations recorded from inside the engine.
 
 ![gif](images/gif.gif)
+
+### Inputs
+Motion Controller Trigger - Press and hold to record takes.
+Motion Controller Grip Button: Press to force IK on feet - this is convenient for scenes that need a little more detail e.g. sitting down.
 
 ### Dependencies & Requirements
 - Unity 2019.1 or later suggested
@@ -22,10 +26,12 @@ This is a plugin that makes use of Unity's new *Package Manager* feature. Just d
 
 ### TODO
 - Hand motion (fists, fingers, etc).
-- Add some recording code from my Virtual Filmback package so that you can start and stop recordings from inside the studio itself.
+- Make walking IK less spiffy.
 - Record volume and pitch data from HMD microphone to use for facial animation.
 - Record audio tracks from HMD microphone for scratch audio takes.
 - Simple blinking/expression data system inferred from audio.
 - More robust XR multiplatform support.
 
-Per usual, this was spat out in around... 5 to 6 hours? Expect it to be pretty buggy.
+![footer](images/footer.gif)
+
+Per usual, this was spat out in around... 7 to 8 hours? Enjoy it in all it's bugginess!
